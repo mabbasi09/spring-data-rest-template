@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db-postgresql-nyc1-79835-do-user-3958923-0.db.ondigitalocean.com:25060/defaultdb
+    username: doadmin
+    password: aj44eyl38na8884i
+    driver-class-name: org.postgresql.Driver
+  data:
+    web:
+      pageable:
+        default-page-size: 20
+  jpa:
+    show-sql: true
+
