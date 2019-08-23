@@ -19,4 +19,8 @@ public class TripController {
 
     @Autowired
     TripRepository tripRepository;
+
+    public String hello() {
+        return "Hello!";
+    }
 }
